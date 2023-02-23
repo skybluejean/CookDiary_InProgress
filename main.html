@@ -20,21 +20,72 @@
       background-color: burlywood;
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
-      align-items :center;
-      width: 300px;
-      height: 100px;
+      /*flex-wrap: wrap;*/
+      display: grid;
+      width: 100vw;
+      height: 300vh;
     }
 
     header{
       background-color: lemonchiffon;
       border-radius: 25px 25px 25px 25px;
+      width: 100vw;
+      height: 10vh;
     }
-
+    
     nav{
       background-color: wheat;
-      width: 70px;
-      height: 30px;
+      border-radius: 25px 25px 25px 25px;
+      width: 80vw;
+      height: 5vh;
+      position: relative;
+      left: 150px;
+    }
+    ul{
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    li{
+      width: 3vw;
+      height: 5vh;
+      border-radius: 70px 70px;
+      text-align: center;
+      background-color: saddlebrown;
+    }
+
+    section{
+      background-color: chocolate;
+      border-radius: 25px 25px 25px 25px;
+      border-color: black;
+      width: 60vw;
+      height: 100vh;
+    }
+
+    article{
+      background-color: chocolate;
+      border-radius: 25px 25px 25px 25px;
+      border-color: black;
+      width: 60vw;
+      height: 60vh;
+    }
+
+
+    aside{
+      background-color: chocolate;
+      border-radius: 25px 25px 25px 25px;
+      border-color: black;
+      width: 30vw;
+      height: 100vh;
+      justify-content:right;
+    }
+
+    footer{
+      background-color: lightslategray;
+      border-radius: 25px 25px 25px 25px;
+      width: 100vw;
+      height: 10vh;
     }
   </style>
 
@@ -50,52 +101,31 @@
   </header>
   <nav>
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>ex1</li>
+      <li>ex2</li>
+      <li>ex3</li>
+      <li>ex4</li>
+      <li>ex5</li>
     </ul>
   </nav>
 
-  <!--  -->
-  <section>
-  </section>
-
-  <!--  -->
-  <article>
-  </article>
-
-
-  <!--  -->
-  <aside>
-  </aside>
-
-
-  <!--  -->
   <div class="divBox">
-    <span>11</span><span>ex1</span>
+
+    <!--  -->
+    <section>
+    </section>
+    
+    <!--  -->
+    <article>
+    </article>
+    
+    
+    <!--  -->
+    <aside>
+    </aside>
+    
   </div>
 
-  <!--  -->
-  <div class="divBox">
-    <span>22</span><span>ex2</span>
-  </div>
-
-  <!--  -->
-  <div class="divBox">
-    <span>33</span><span>ex3</span>
-  </div>
-
-  <!--  -->
-  <div class="divBox">
-    <span>44</span><span>ex4</span>
-  </div>
-
-  <!--  -->
-  <div class="divBox">
-    <span>55</span><span>ex5</span>
-  </div>
 
 
   <footer>
