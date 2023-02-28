@@ -14,8 +14,6 @@
       background-color: sienna;
       margin: 10px groove wheat;
     }
-
-
     .divBox{
       background-color: burlywood;
       display: flex;
@@ -25,16 +23,40 @@
       width: 300px;
       height: 100px;
     }
-
     header{
-      background-color: lemonchiffon;
-      border-radius: 25px 25px 25px 25px;
-    }
-
-    nav{
       background-color: wheat;
-      width: 70px;
-      height: 30px;
+      border-radius: 25px 25px 25px 25px;
+      border : 15px solid darkgrey;
+      padding: 30px;
+      margin: 15px;
+    }
+    nav{
+      background-color: blanchedalmond;
+      border-radius: 45px 45px ;
+      width: 1390px;
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content : end;
+      align-items: center;
+      position: relative;
+      left: 250px;
+    }
+    ul{
+      display: flex;
+      flex-direction: row;
+    }
+    li{
+      background-color: darksalmon;
+      width: 45px;
+      height: 45px;
+      border-radius: 50px 50px;
+      list-style-type: none;
+    }
+    section{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
     }
   </style>
 
@@ -48,6 +70,7 @@
   <header>
   
   </header>
+  
   <nav>
     <ul>
       <li></li>
@@ -59,8 +82,30 @@
   </nav>
 
   <!--  -->
-  <section>
+  <section id="container">
+    <div class="divBox">
+      sssss
+    </div>
+    <!--  -->
+    <div class="divBox">
+      ssss 
+    </div>
+    <!--  -->
+    <div class="divBox">
+    ssss
+    </div>
+  
+    <!--  -->
+    <div class="divBox">
+    ssss 
+    </div>
+  
+    <!--  -->
+    <div class="divBox">
+    ssss
+    </div>
   </section>
+
 
   <!--  -->
   <article>
@@ -73,34 +118,16 @@
 
 
   <!--  -->
-  <div class="divBox">
-    <span>11</span><span>ex1</span>
-  </div>
-
-  <!--  -->
-  <div class="divBox">
-    <span>22</span><span>ex2</span>
-  </div>
-
-  <!--  -->
-  <div class="divBox">
-    <span>33</span><span>ex3</span>
-  </div>
-
-  <!--  -->
-  <div class="divBox">
-    <span>44</span><span>ex4</span>
-  </div>
-
-  <!--  -->
-  <div class="divBox">
-    <span>55</span><span>ex5</span>
-  </div>
-
-
   <footer>
-
   </footer>
+
+
+  <script>
+    const container = document.getElementById('container').style.border = 'dotted';
+    
+  </script>
+
+
 
 
 </body>
