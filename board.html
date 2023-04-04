@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Board List</title>
+
+<style>
+  *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  background-color: sienna;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header,footer{
+  background-color: lightgray;
+  width: 80vw;
+  height: 20vh;
+}
+main{
+  background-color: gray;
+  width: 80vw;
+  height: 80vh;
+}
+</style>
+</head>
+
+
+
+<body>
+
+<header>
+<div id="box1"></div>
+</header>
+
+<main>
+<div id="box2"></div>
+</main>
+
+<footer>
+<div id="box3"></div>
+</footer>
+
+
+<script>
+  const firstBox = document.getElementById('box1');
+  firstBox.style.backgroundColor='lightpink';
+  firstBox.style.borderBlockColor='black';
+</script>
+
+
+
+</body>
+</html>
